@@ -1,16 +1,15 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { SkipComponent } from './skip.component';
+import { SkipComponent } from "./skip.component";
 
-describe('SkipComponent', () => {
+describe("SkipComponent", () => {
   let component: SkipComponent;
   let fixture: ComponentFixture<SkipComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SkipComponent ]
-    })
-    .compileComponents();
+      declarations: [SkipComponent]
+    }).compileComponents();
   }));
 
   beforeEach(() => {
@@ -19,7 +18,7 @@ describe('SkipComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });
