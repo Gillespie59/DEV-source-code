@@ -11,7 +11,7 @@
         <li *ngFor="let groupItem of groups; let i = 'index' " [attr.aria-controls]="groupItem.itemID" role="tab" [attr.aria-selected]="groupItem.isVisible"
             [attr.tabindex]="groupItem.tabIndex">
 
-            <button #bulletPoint aria-label="Go to this slide" (click)="goTo(i)"> </button>
+            <button aria-label="Go to this slide" (click)="goTo(i)"> </button>
         </li>
     </ul>
 
