@@ -1,22 +1,15 @@
-import { Component, OnInit, ViewEncapsulation, Input } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation, Input } from "@angular/core";
 
 @Component({
-  selector: 'c3m-input',
-  templateUrl: './input.component.html',
-  styleUrls: ['./input.component.css'],
+  selector: "c3m-input",
+  templateUrl: "./input.component.html",
+  styleUrls: ["./input.component.css"],
   encapsulation: ViewEncapsulation.None
 })
-export class InputComponent implements OnInit {
-
+export class InputComponent {
   // Inputs
   @Input() title;
-  @Input() placeholder = '';
+  @Input() placeholder = "";
   @Input() name;
-  @Input() id = '';
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  @Input() id = "";
 }
